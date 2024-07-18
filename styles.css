@@ -1,0 +1,539 @@
+/* styles.css */
+
+
+/* importing fonts */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/gilroy-font/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/gilroy-font/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/gilroy-font/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/gilroy-font/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    width: 100%;
+}
+
+/* hero section */
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-section .logo {
+    width: 240px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.hero-section .headline,
+.hero-section .main-headline,
+.hero-section .description {
+    margin-bottom: 20px;
+}
+
+.headline {
+    background-color: #FFDB5E;
+    color: #33256C;
+    display: inline-block;
+    padding: 4px 20px;
+    border-radius: 1px;
+    font-weight: 700;
+    font-size: 33px;
+    margin: 0 auto;
+}
+
+.main-headline {
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.orange-italic {
+    color: orangered;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.description {
+    color: white;
+    max-width: 890px;
+    font-size: 1.4rem;
+}
+
+.yellow-underline {
+    color: #FFDB5E;
+    text-decoration: underline;
+}
+
+.hero-section-img {
+    max-width: 1031px;
+    margin-top: 17px;
+}
+
+.hero-section .background-img,
+.hero-section .mask-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section .background-img {
+    z-index: -1;
+}
+
+.hero-section .mask-img {
+    opacity: 0.9;
+    z-index: -2;
+}
+
+
+/* banner section */
+
+.banner {
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  background: #221E3A;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1191px;
+  min-height: 521px;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.banner-left, .banner-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+}
+
+.banner-left {
+  width: 35%;
+  position: relative;
+}
+
+.highlight-box {
+  position: absolute;
+  width: 246px;
+  height: 177px;
+}
+
+.highlight-yellow {
+  top: 146px;
+  left: 0;
+  background-color: #FFDC5E;
+  z-index: 1;
+}
+
+.highlight-orange {
+  top: 209px;
+  left: 0;
+  background-color: #FF5811;
+  z-index: 1;
+}
+
+.banner-image {
+  position: absolute;
+  top: 50px;
+  left: 84px;
+  max-width: 100%;
+  z-index: 2;
+}
+
+.banner-right {
+  width: 65%;
+  text-align: center;
+}
+
+.headline {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  background-color: #FFDB5E;
+  display: inline-block;
+  padding: 2px 35px;
+  border-radius: 4px;
+  margin-bottom: 21px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.underline-orange {
+  color: #FF5811;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 13px;
+  color: white;
+  max-width: 500px;
+  margin: 0 auto 13px auto;
+}
+
+.underline-yellow {
+  color: #FFDB5E;
+  text-decoration: underline;
+}
+
+.additional-description {
+  background-color: #FF5811;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 18px 40px;
+  margin-bottom: 14px;
+}
+
+.description-content {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.text-content {
+  margin-left: 17px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 43px;
+  color: white;
+}
+
+.subtitle {
+  font-weight: 700;
+  text-align: left;
+  font-size: 18px;
+}
+
+.content-image {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.warning-message {
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.warning-color {
+  color: #FFDC5E;
+}
+
+
+/* review section */
+
+.review {
+  width: 100%;
+  margin-top: 66px;
+  padding: 20px;
+}
+
+.review-container {
+  display: flex;
+  max-width: 1281px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+  width: 50%;
+  padding: 10px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-img {
+  padding: 41px 7px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: auto;
+}
+
+.user-review {
+  padding: 23px 10px;
+  background-color: #FFFFFF;
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: auto;
+}
+
+.contributor-review {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 1200px) {
+  
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .banner-left, .banner-right {
+    width: 100%;
+  }
+
+  .banner-left-content, .banner-right-content {
+    position: relative;
+    height: auto;
+    padding: 0px;
+  }
+
+  .highlight-box {
+    display: none;
+  }
+
+  .banner-image {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 0 auto;
+  }
+
+  .banner-right.description {
+    margin: 0 auto 13px auto;
+    max-width: 570px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .additional-description {
+    padding: 15px 30px;
+  }
+
+  .review-container {
+    max-width: 1000px;
+  }
+
+  .dashboard-img, .user-review, .contributor-review {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .hero-section .headline {
+    font-size: 1rem;
+  }
+
+  .banner-left, .banner-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-left-content {
+    padding: 0;
+  }
+  
+  .banner-right-content {
+    padding: 16px;
+  }
+
+  .banner.headline, .title, .subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .banner .headline {
+    line-height: 28px;
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+
+  .banner .title {
+    line-height: 25px;
+  }
+
+  .bnner .description {
+    font-size: 1rem;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .additional-description {
+    padding: 10px 20px;
+  }
+
+  .banner-image {
+    width: 300px;
+    height: auto;
+  }
+
+  .content-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .left-column, .right-column {
+    width: 100%;
+  }
+
+  .dashboard-img, .user-review, .contributor-review {
+    width: 100%;
+  }
+
+  .hero-section .main-headline {
+        font-size: 2.4rem;
+    }
+
+    .hero-section .description {
+        font-size: 1.2rem;
+    }
+
+    .review {
+        padding: 10px;
+        margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero-section .headline {
+    line-height: 24px;
+  }
+
+  .banner {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .banner .headline, .title, .subtitle {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .additional-description {
+    padding: 8px 15px;
+  }
+
+  .hero-section .main-headline {
+        font-size: 1.7rem;
+    }
+
+    .hero-section .description {
+        font-size: 1rem;
+    }
+
+  .review {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .left-column, .right-column {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .dashboard-img, .user-review, .contributor-review {
+    width: 100%;
+  }
+
+  .user-review {
+    margin-top: 10px;
+  }
+}
