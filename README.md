@@ -1,6 +1,6 @@
 # Pitch Perfect AI Layout Clone
 
-Github deployed Live Link: [https://shahbazalamjobs.github.io/Pitch-Perfect-AI-layout-clone/](https://shahbazalamjobs.github.io/Pitch-Perfect-AI-layout-clone/)
+Github deployed Live Link: [https://shahbazalamjobs.github.io/Pitch-Perfect-AI-layout-clone/](https://shahbazalamjobs.github.io/Pitch-Perfect-AI-layout-clone/) <br>
 Vercel Deployed Live Link: [https://pitch-perfect-ai-layout-clone.vercel.app/](https://pitch-perfect-ai-layout-clone.vercel.app/)
 
 ## Figma Design
