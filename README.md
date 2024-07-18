@@ -1,4 +1,4 @@
-# Pitch Perfect AI Layout Clone
+# Pitch Perfect AI Layout Clone (Fully Responsive)
 
 Github deployed Live Link: [https://shahbazalamjobs.github.io/Pitch-Perfect-AI-layout-clone/](https://shahbazalamjobs.github.io/Pitch-Perfect-AI-layout-clone/) <br>
 Vercel Deployed Live Link: [https://pitch-perfect-ai-layout-clone.vercel.app/](https://pitch-perfect-ai-layout-clone.vercel.app/)
