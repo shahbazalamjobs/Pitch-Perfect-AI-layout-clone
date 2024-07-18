@@ -1,5 +1,7 @@
 # Pitch Perfect AI Layout Clone
 
+Live Link: [https://shahbazalamjobs.github.io/Pitch-Perfect-AI-layout-clone/](https://shahbazalamjobs.github.io/Pitch-Perfect-AI-layout-clone/)
+
 ## Figma Design
 
 Access the design on Figma [here](https://www.figma.com/design/C09aFgsJNyYvv8DJE84xHW/Interns-Project?node-id=0-1).
